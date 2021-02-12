@@ -89,13 +89,13 @@ public class Solver {
         return false; // to allow the recursiveness of this method to allow all positions in the grid to be filled.
     }
 
-    public static void printOriginal(int[][] arr, int N) {// prints the original sudoku before solving
+    public static void printOriginal(int[][] arr, int num) {// prints the original sudoku before solving
         System.out.println("-------------------------------");
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < num; i++) {
             if (i % 3 == 0 && i != 0) {
                 System.out.println("----------|---------|----------");
             }
-            for (int j = 0; j < N; j++) {
+            for (int j = 0; j < num; j++) {
                 if (j % 3 == 0) {
                     System.out.print("|");
                 }
@@ -113,13 +113,13 @@ public class Solver {
         System.out.println("-------------------------------");
     }
 
-    public static void printFinal(int[][] arr, int N) {// prints the final sudoku after solving
+    public static void printFinal(int[][] arr, int num) {// prints the final sudoku after solving
         System.out.println("-------------------------------");
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < num; i++) {
             if (i % 3 == 0 && i != 0) {
                 System.out.println("----------|---------|----------");
             }
-            for (int j = 0; j < N; j++) {
+            for (int j = 0; j < num; j++) {
                 if (j % 3 == 0) {
                     System.out.print("|");
                 }
