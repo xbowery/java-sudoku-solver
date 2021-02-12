@@ -90,6 +90,7 @@ public class Solver {
     }
 
     public static void printOriginal(int[][] arr, int N) {// prints the original sudoku before solving
+        System.out.println("-------------------------------");
         for (int i = 0; i < N; i++) {
             if (i % 3 == 0 && i != 0) {
                 System.out.println("----------|---------|----------");
@@ -107,11 +108,13 @@ public class Solver {
                             + " ");
                 }
             }
-            System.out.println();
+            System.out.println("|");
         }
+        System.out.println("-------------------------------");
     }
 
     public static void printFinal(int[][] arr, int N) {// prints the final sudoku after solving
+        System.out.println("-------------------------------");
         for (int i = 0; i < N; i++) {
             if (i % 3 == 0 && i != 0) {
                 System.out.println("----------|---------|----------");
@@ -123,7 +126,8 @@ public class Solver {
                 System.out.print(" " + arr[i][j]
                         + " ");
             }
-            System.out.println();
+            System.out.println("|");
         }
+        System.out.println("-------------------------------");
     }
 }
