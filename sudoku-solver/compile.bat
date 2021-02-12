@@ -1,0 +1,1 @@
+javac -d out -sourcepath demo demo\Tester.java
