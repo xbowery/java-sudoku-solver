@@ -11,4 +11,4 @@ Enjoy this simple Java application created by me to solve Sudoku with ease!
 
 # Connect with Me!
 
-Feel free to drop me a message on Github or connect with me on LinkedIn at: https://www.linkedin.com/in/king-yeh-cheah/
+Feel free to drop me a comment in this repository here on Github or connect with me on LinkedIn at: https://www.linkedin.com/in/king-yeh-cheah/
